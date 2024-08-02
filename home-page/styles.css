@@ -27,6 +27,12 @@ header, .search{
     flex-grow: 2;
 }
 
+.search input{
+    background-image: url(../images/icons/magnifying-glass.png);
+    background-repeat: no-repeat;
+    background-position: 5px 8px;
+}
+
 .search button{
     padding: 0 20px;
     width: 120px;
@@ -98,6 +104,11 @@ h2{
 
 .left input{
     height: 30px;
+}
+
+input::placeholder{
+    position: relative;
+    left: 10px;
 }
 
 .right{
