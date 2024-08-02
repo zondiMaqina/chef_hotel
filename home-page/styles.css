@@ -46,11 +46,17 @@ main{
 
 main .left{
     margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 h2{
-    font-size: 2em;
+    font-size: 2.5em;
     margin: 20px;
+    position: relative;
+    left: 0;
+    text-align: center;
 }
 
 .sign_up{
@@ -67,4 +73,38 @@ h2{
 
 .left .sign_up button{
     width: 100%
+}
+
+.right{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.images img{
+    height: 300px;
+    height: 200px;
+}
+
+.options{
+    display: flex;
+    gap: 25px;
+    width: 390px;
+}
+
+.options a{
+    border: 1px solid;
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px;
 }
