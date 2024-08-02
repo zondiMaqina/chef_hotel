@@ -3,4 +3,38 @@
     margin: 0;
     text-decoration: none;
     font-family: "Quicksand", sans-serif;
+    list-style-type: none;
+}
+
+header{
+    margin: 10px;
+    gap: 20px;
+}
+
+header, .search{
+    display: flex;
+    flex-shrink: 1;
+}
+
+.search, input{
+    flex-grow: 2;
+}
+
+.search button{
+    padding: 0 20px;
+}
+
+h1{
+    flex-shrink: 2;
+    font-size: 2.2em;
+    border: 1px solid;
+}
+
+ul{
+    flex-grow: 1;
+    flex-shrink: 2;
+    display: flex;
+    border: 1px solid;
+    justify-content: flex-end;
+    gap: 30px;
 }
