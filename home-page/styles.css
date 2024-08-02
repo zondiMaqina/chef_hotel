@@ -27,14 +27,44 @@ header, .search{
 h1{
     flex-shrink: 2;
     font-size: 2.2em;
-    border: 1px solid;
 }
 
 ul{
     flex-grow: 1;
     flex-shrink: 2;
     display: flex;
-    border: 1px solid;
     justify-content: flex-end;
+    align-items: center;
     gap: 30px;
+}
+
+main{
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+main .left{
+    margin-left: 20px;
+}
+
+h2{
+    font-size: 2em;
+    margin: 20px;
+}
+
+.sign_up{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.sign_up div{
+    display: flex;
+    gap: 10px;
+}
+
+.left .sign_up button{
+    width: 100%
 }
